@@ -17,32 +17,33 @@ x || y //?
 package chapter2;
 
 public class Ex14 {
-	static void Compare (String str1, String str2) {
-      boolean result = false;
-	 // result = (str1 > str2);
-	  System.out.println("str1 > str2: " + result); 
-	//  result = (str1 >= str2);
-	  System.out.println("str1 >= str2: " + result); 
-	//  result = (str1 < str2);
-	  System.out.println("str1 < str2: " + result); 
-	//  result = (str1 <= str2);
-	  System.out.println("str1 <= str2: " + result); 
-	  result = (str1 == str2);
-	  System.out.println("str1 == str2: " + result); 
-	  result = (str1 != str2);
-	  System.out.println("str1 != str2: " + result); 
-	 // result = (!str1);
-	  System.out.println("!str1: " + result); 
-	 // result = (str1 && str2);
-	  System.out.println("str1 && str2: " + result); 
-	 // result = (str1 || str2);
-	  System.out.println("str1 || str2: " + result); 
-	  result = str1.equals(str2);
-	  System.out.println("str1.equals(str2): " + result); 
-  }
-  public static void main(String[] args) {
-    Compare("a","b");	
-	Compare("aaa","bb");
-	Compare("a","a");		
-  }
+	static void compare(String str1, String str2) {
+		boolean result = false;
+		// result = (str1 > str2);
+		System.out.println("str1 > str2: " + result);
+		// result = (str1 >= str2);
+		System.out.println("str1 >= str2: " + result);
+		// result = (str1 < str2);
+		System.out.println("str1 < str2: " + result);
+		// result = (str1 <= str2);
+		System.out.println("str1 <= str2: " + result);
+		result = (str1 == str2);
+		System.out.println("str1 == str2: " + result);
+		result = (str1 != str2);
+		System.out.println("str1 != str2: " + result);
+		// result = (!str1);
+		System.out.println("!str1: " + result);
+		// result = (str1 && str2);
+		System.out.println("str1 && str2: " + result);
+		// result = (str1 || str2);
+		System.out.println("str1 || str2: " + result);
+		result = str1.equals(str2);
+		System.out.println("str1.equals(str2): " + result);
+	}
+
+	public static void main(String[] args) {
+		compare("a", "b");
+		compare("aaa", "bb");
+		compare("a", "a");
+	}
 }

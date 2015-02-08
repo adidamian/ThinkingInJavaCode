@@ -1,4 +1,5 @@
 package chapter1;
+
 //Write a program that demonstrates that autoboxing works for 
 //all the primitive types and their wrappers.
 
@@ -13,8 +14,8 @@ public class Ex9 {
 		float f = 0.32f;
 		double d = 0.64;
 		Boolean B = b;
-		System.out.println("boolean b = " + b); 		
-		System.out.println("Boolean B = " + B); 
+		System.out.println("boolean b = " + b);
+		System.out.println("Boolean B = " + B);
 		Character C = c;
 		System.out.println("char c = " + c);
 		System.out.println("Character C = " + C);
@@ -35,7 +36,7 @@ public class Ex9 {
 		System.out.println("Float F = " + F);
 		Double D = d;
 		System.out.println("double d = " + d);
-		System.out.println("Double D = " + D);		
+		System.out.println("Double D = " + D);
 	}
-	
+
 }
